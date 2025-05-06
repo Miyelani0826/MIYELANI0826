@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img {
+              display: block;
+              margin: auto;
+            }
+
+
+            
+            body {
+  background-image: url("color.jfif");
+
+  background-size : 100% auto;
+  background-repeat: no-repeat;
+
+}
+
+table, th, td {
+                  border: 1px solid black;
+                }
+
+                table.center {
+  margin-left: auto; 
+  margin-right: auto;
+} 
+
+h1 {
+  font-size: 60px;
+}
+
+.mySlides {display:none;}
+
+            </style>
+    </head>
+<body>
+   
+<h1 style="text-align:center;"><u>Veteran Paint Works</marquee></u></h1>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="111111111111.jfif" style="width:30%">
+  <img class="mySlides" src="HAPPY COSTUMER 1.jfif" style="width:30%">
+  <img class="mySlides" src="HAPPY COSTUMER 2.jfif" style="width:30%">
+  <img class="mySlides" src="HAPPY COSTUMER 4.jfif" style="width:30%">
+  <img class="mySlides" src="HAPPY COSTUMER 3.jfif" style="width:30%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<hr>
+
+<style>
+
+
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main main right'
+      'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .item1 {
+    grid-area: header;
+    background-color: purple;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .item1 > h1 {
+    font-size: 40px;
+  }
+  
+  .item2 {
+    grid-area: menu;
+    }
+    
+  .item2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item2 li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+  }
+  
+  .item2 li:hover {
+    background-color: #0099cc;
+  }
+    
+  .item3 {
+    grid-area: main;
+  }
+  
+  .item3 > h1 {
+    font-size: 30px;
+    margin-bottom: 7px;
+  }
+  
+  .item3 > p {
+    margin-bottom: 7px;
+  }
+  
+  .item4 {
+    grid-area: right;
+    border: 2px solid #0099cc;
+    background-color: white;
+    padding: 15px;
+    color: #000000;
+  }
+  
+  .item4 > h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .item4 li {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .item5 {
+    grid-area: footer;
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .item1 {grid-area: 1 / span 6;}
+    .item2 {grid-area: 2 / span 6;}
+    .item3 {grid-area: 3 / span 6;}
+    .item4 {grid-area: 4 / span 6;}
+    .item5 {grid-area: 5 / span 6;}
+  }
+  
+
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+    footer {
+      text-align: center;
+      padding: 3px;
+      background-color: rgb(51, 59, 59);
+      color: white;
+    }
+    </style>
+
+
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
+
+<P></P>
+
+<footer>
+
+
+
+    <p>Make your car shine today <p style="text-align:center;"><marquee><U> Veteran Paint Works was founded in 2003 by John Smith,
+       a passionate and skilled painter with a vision for delivering exceptional automotive paint jobs.
+        With a background in mechanical engineering and a love for cars,
+
+         John started the business in a small garage with a handful of clients.</U></marquee></p>
+
+       <h3><u> Target Audience</u></h3>
+       <br>
+       <p class="p1"> Individuals who want to refresh their car’s look, fix scratches, or personalize their vehicle with custom colors and designs.<br>
+
+      Dealerships might need car painting services to restore used vehicles or prepare them for resale.<br>
+        
+        Companies with fleets, like delivery or taxi services, may require consistent branding and touch-ups for their vehicles.<br>
+        
+       People passionate about cars, such as collectors or tuners, who may seek high-quality or custom paint jobs.<br>
+        
+        They might collaborate with a car painting business for vehicles involved in accidents that need repainting or repairs.</p>
+      
+        <table class="center">
+          <br>
+
+          <tr>
+         
+            <th>working days</th>
+          <th>time</th>
+          </tr>
+          
+          <tr>
+            <td>Monday</td>
+            <td>08:30 to 18:30</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>08:30 to 18:30</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>08:30 to 18:30</td>
+          
+          </tr>
+          <tr>
+            <td>Thursday</td>
+          <td>-08:00 to 18:30</td>
+          </tr>
+          <tr>
+            <td>friday</td>
+          <td>08:00 to 15:30</td>
+          </tr>
+          <tr>
+            <td>sartuday</td>
+          <td>08:00 to 15:30</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+          <td>Not working</td>
+          </tr>
+       
+      
+        
+        </table><br>
+      
+        <div style="text-align:center; gap:20px;display: flex;justify-content: center;"> 
+
+          <a class="active" href="#home">Home</a>
+          <button><a href="CONTACT US.html">Contact US </a> </button>
+          <button><a href="ABOUT US.html">About US</a> </button> <button><a href="SERVICE.html">service</a> </button> 
+          <button><a href="home.html">HOME PAGE</a> </button>
+          <button><a href="PRODUCT.html">PRODUCT</a></button>
+          <input type="text" placeholder="Search..">
+          <button type="submit">Submit</button>
+      </div>
+<hr>
+      </footer></P>
+
+    
+     
+    
+   
+
+   
+</body>
+</html>
